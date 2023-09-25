@@ -1,0 +1,128 @@
+                    /*######################################### CLASS SELECTORS ############################################*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+section{
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1690551042419-744e7adad6e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}   
+
+
+.container{
+    width: 85%;
+    margin: auto;
+
+}
+
+/* nav ul li a .active {
+    background-color: aqua;
+
+} */
+
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh); 
+
+    /* check translate out */
+
+}
+
+.article h1{
+    font-size: 38px;
+    color: #92d140;
+    font-weight: 1800;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+
+
+}
+
+.article p{
+    font-size: 19px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.article .btn{
+    color: #92d140;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:#eb7620 ;
+
+
+}
+
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.5s;
+}
+
+.paragraph{
+    color: #141E46;
+}
+
+
+
+
+
+/* .home{
+    color: #eb7620
+} */
+
+  /*######################################### Element Selectors ############################################*/
+
+ 
+
+nav{
+    height: 80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px; 
+    font-size: 35px;
+    color: #eb7620 ;
+
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #92d140;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 9px ;
+
+}
+
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition:0.7s;
+
+}
+
+
+
+
